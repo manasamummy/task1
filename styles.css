@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;  /* Space between links */
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.nav-links li a:hover {
+    color: #ff6347; /* Changes text color on hover */
+    background-color: #fff; /* Background color change on hover */
+    border-radius: 5px; /* Rounded corners for the background */
+}
+
+.hero-section {
+  background-image: url('images/che.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100vw;
+  position: relative;
+  background-repeat: no-repeat;
+ 
+}
+
+.hero-section{
+text-align: center;
+padding: 200px;
+colour:white;
+font-size: 30px;
+
+}
+
+.cta-button {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background-color: #e74c3c;
+}
+
+.about-section,
+.services-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.service-box {
+  margin: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
